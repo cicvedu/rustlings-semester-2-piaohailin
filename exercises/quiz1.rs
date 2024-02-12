@@ -32,7 +32,7 @@ fn verify_test() {
 }
 
 fn calculate_price_of_apples(apple: i32) -> i32 {
-    if apple >= 40{
+    if apple <= 40{
         return 2 * apple
     }
     return apple
