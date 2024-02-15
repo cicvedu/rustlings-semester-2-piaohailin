@@ -16,7 +16,7 @@ fn string(arg: String) {
 }
 
 fn main() {
-    string("blue");
+    string("blue".to_string());
     string("red".to_string());
     string(String::from("hi"));
     string("rust is fun!".to_owned());
